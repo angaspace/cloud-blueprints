@@ -1,0 +1,28 @@
+# ==========================================
+# Anga Space - Security & Secrets Shield
+# ==========================================
+
+# AWS Credentials & Local Config
+.aws/
+credentials
+credentials.csv
+*.pem
+*.key
+
+# Environment Files & API Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Terraform Local State (Contains raw secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# OS & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
