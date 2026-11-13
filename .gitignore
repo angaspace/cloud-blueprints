@@ -19,7 +19,6 @@ credentials.csv
 *.tfstate
 *.tfstate.*
 .terraform/
-.terraform.lock.hcl
 
 # OS & IDE junk
 .DS_Store
