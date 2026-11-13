@@ -8,7 +8,6 @@ Reusable AWS building blocks used by Anga Space for secure cloud setup and audit
 | `iam-policies/` | IAM policy examples and security baseline | Reference |
 | `scripts/bootstrap-webserver.sh` | EC2 user-data script: installs Apache | Tested: not yet |
 | `scripts/encrypt-ebs-volume.sh` | Encrypts an existing EBS volume via snapshot copy | Tested: not yet |
-| `runbooks/ec2-storage-audit-commands.md` | Read-only CLI checks for client storage audits | Tested: not yet |
 
 Update the Status column with the test date once you have run each item (see TESTING.md).
 
